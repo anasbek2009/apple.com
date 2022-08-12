@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    width: 100%;
+    height: 44px;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+}
+nav{
+    width: 65%;
+    height: 100%;
+    margin: auto;
+}
+.collection{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.item{
+    color: #ddd;
+    list-style: none;
+}
+.item span{
+    font-size: 12px;
+}
+header i{
+    color: white;
+}
+.unicef{
+    background-color: #f5f5f7;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.unicef a{
+    text-decoration: none;
+    color: dodgerblue;
+    margin-left: 16px;
+    font-size: 14px;
+}
+.macbook{
+    width: 100%;
+    height: 580px;
+    background: url("/img/banner1.png") no-repeat center/cover;
+    padding-top: 230px;
+    padding-left: 200px;
+}
+.macbook_text{
+    width: 400px;
+    text-align: center;
+}
+.macbook_text h1{
+    font-size: 55px;
+}
+.link{
+    color: dodgerblue;
+    margin: 0px 18px;
+    text-decoration: none;
+}
+.w2{
+    font-size: 18px;
+}
+.link:hover span{
+    text-decoration: underline;
+}
+.watch{
+    width: 100%;
+    height: 580px;
+    background: url(./img/banner3.jpg) no-repeat center/cover;
+    text-align: center;
+    padding-top: 50px;
+}
+.aa{
+    font-size: 45px;
+}
+.watch h3{
+    font-size: 28px;
+    font-weight: 300;
+    padding: 15px 0p;
+}
+.logo{
+    color: red;
+}
+.ipad{
+    width: 100%;
+    height: 580px;
+    background: url("/img/banner2.jpg") no-repeat center/cover;
+}
+.wrapper{
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width: 48.5%;
+    height: 550px;
+    border: 1px solid red;
+    margin: 3px;
+}
+.iphone13{
+    background: url("./img/001.jpg") no-repeat center/cover;
+    text-align: center;
+    padding-top: 50px;
+}
+.iphone13pro{
+   background: url("./img/002.jpg") no-repeat center/cover;
+}
+.logotip{
+    font-size: 60px;
+    text-align: center;
+    font-style: italic;
+    transform: translateY(40px);
+}
+.logotip span{
+    color: crimson;
+    font-style: italic;
+}
+.point{
+    padding-top: 40px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+}
+.wer1{
+    color: dodgerblue;
+    text-decoration: none;
+    padding-top: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.wer1 span{
+    font-size: 18px;
+    text-align: center;
+}
+.lala{
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+}
+.tyu{
+    text-align: center;
+    padding-top: 45px;
+}
+.title{
+    text-align: center;
+}
+.fasfa{
+    background: url("/img/006.jpg") no-repeat center/cover;
+}
+.good{
+    background: url("/img/005.jpg") no-repeat center/cover;
+}
+.bad{
+    background: url("/img/004.jpg") no-repeat center/cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
